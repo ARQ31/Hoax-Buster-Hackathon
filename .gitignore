@@ -5,11 +5,11 @@ Hoax Buster.json
 !package.json
 !tsconfig.json
 !jsconfig.json
-!langflow/Hoax Buster.json
 
 # Environment variables & secrets
 .env
 .env.*
+!.env.example
 *.env
 *.key
 *.pem
