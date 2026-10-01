@@ -1,0 +1,29 @@
+# Sensitive files / Credentials
+"Hoax Buster.json"
+Hoax Buster.json
+*.json
+!package.json
+!tsconfig.json
+!jsconfig.json
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+*.key
+*.pem
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
